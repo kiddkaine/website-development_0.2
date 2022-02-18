@@ -124,6 +124,12 @@ h1,h2,h3,h4,h5,h6 {
 	font-family:Neucha;
 	font-size:24px;
 	padding:10px 15px;
+	transition: background .2s linear, color .2s linear;
+}
+
+.btn:hover {
+	background:#ffffff;
+	color:#000000;
 }
 
 /* Info */
