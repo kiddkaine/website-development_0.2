@@ -207,3 +207,18 @@ h1,h2,h3,h4,h5,h6 {
 	color:#333333;
 	text-align:center;
 }
+
+/* Content */
+
+.content {
+	padding-top:10px;
+	width:100%;
+	height:1000px;
+	background:linear-gradient(to top left, powderblue, pink);
+}
+
+.container {
+	width:100%;
+	max-width:1250px;
+	margin:0 auto;
+}
