@@ -168,15 +168,15 @@ h1,h2,h3,h4,h5,h6 {
 	color:#000000;
 }
 
-/* Slider */
+/* Category */
 
-.slider {
+.category {
 	display:flex;
 	justify-content:space-between;
 	margin-top:300px;
 }
 
-.slider__item {
+.category__item {
 	width:23%;
 	padding:20px 0;
 	border-top:2px solid #333333;
@@ -188,11 +188,11 @@ h1,h2,h3,h4,h5,h6 {
 	transition:opacity .2s linear;
 }
 
-.slider__item:hover {
+.category__item:hover {
 	opacity:1;
 }
 
-.slider__num {
+.category__num {
 	font-size:28px;
 	font-weight:700;
 }
