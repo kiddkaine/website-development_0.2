@@ -1,3 +1,5 @@
+// Script slider
+
 var slideIndex = 1;
 showSlides(slideIndex);
 function plusSlide() {
