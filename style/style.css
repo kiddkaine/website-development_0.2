@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 	padding-top:10px;
 	width:100%;
 	height:1000px;
-	background:linear-gradient(to top left, powderblue, pink, grey);
+	background: linear-gradient(-45deg, #cfecd0, #ffc5ca);
 }
 
 .container {
@@ -274,7 +274,7 @@ h1,h2,h3,h4,h5,h6 {
 	padding-top:10px;
 	width:100%;
 	height:1000px;
-	background:linear-gradient(to top left, grey, pink, powderblue);
+	background: linear-gradient(0deg, #ffc5ca, #cfecd0);
 }
 
 .container {
@@ -454,7 +454,7 @@ h1,h2,h3,h4,h5,h6 {
 	padding-top:10px;
 	width:100%;
 	height:1000px;
-	background:linear-gradient(to top left, powderblue, pink, grey);
+	background: linear-gradient(45deg, #cfecd0, #ffc5ca);
 }
 
 .container {
