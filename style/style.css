@@ -477,9 +477,9 @@ h6 {
 }
 
 
-/* Technology */
+/* Social */
 
-.technology {
+.social {
     padding-top: 10px;
     width: 100%;
     height: 1000px;
@@ -493,7 +493,7 @@ h6 {
     margin: 0 auto;
 }
 
-.technology__header {
+.social__header {
     margin-top: 50px;
     font-family: Caveat;
     font-size: 28px;
@@ -501,11 +501,40 @@ h6 {
     text-align: center;
 }
 
-.technology__header:after {
+.social__header:after {
     content: "";
     display: block;
     width: 100px;
     height: 3px;
     margin: 40px auto;
     background: #333333;
+}
+.social__items {
+	display:flex;
+	justify-content:space-between;
+	padding:0 50px 50px 50px;
+	border-bottom:1px solid grey;
+}
+
+.twoline {
+	margin:50px 0;
+}
+
+.social__item {
+	padding:25px;
+	font-size:50px;
+	transition:.2s linear;
+}
+
+.social__item:hover {
+	transform:scale(1.2);
+}
+
+.social__icon {
+	color:#000;
+	transition:.2s linear;
+}
+
+.social__icon:hover {
+	color:#fff;
 }
